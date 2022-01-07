@@ -1,0 +1,22 @@
+
+{% extends "entries/base.html" %}
+{% block content %}
+    <article>
+        <h2 class="mark">{% now "Y-m-d H:i" %}</em></h2>
+        <a href="{% url 'entry-create' %}"><button>Add new entry</button></a>
+    </article>
+
+    {% for entry in entry_list %}
+        <article>
+            <h3 class="{{ entry.date_created|date:'1' }}">
+                {{ entry.date_created|date:'Y-m-d H:i' }}
+            </h3>
+            <h2>
+                <a href="{% url 'entry-detail' entry.id %}">
+                    {{ entry.title }}
+                </a>
+            </h2>
+        </article>
+    {% endfor %}
+{% endblock %} 
+

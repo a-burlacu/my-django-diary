@@ -1,0 +1,125 @@
+/* entries/static/css/diary.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+
+a {
+    color: inherit;
+}
+a:hover {
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h1 a {
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+h2, h3 {
+    font-size: 1.1em;
+    margin: 0;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    vertical-align: top;
+}
+h3 {
+    background-color: rgb(246, 208, 253);
+}
+h2 {
+    background-color: rgb(244,187,255);
+}
+
+.mark {
+    background-color: gainsboro;
+}
+.mark a {
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.3em;
+    max-width: 36rem;
+    color: rgb(56, 56, 56);
+    white-space: pre-wrap;
+}
+
+em {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Form */
+
+label {
+    display: block;
+}
+
+button,
+textarea,
+input {
+    font-size: inherit;
+    min-height: 2.5em;
+    padding: 0 1rem;
+    font-family: "Comic Sans MS";
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
+textarea {
+    padding: 0.5rem 1rem;
+    font-family: "Comic Sans MS";
+}
+
+button,
+input[type="submit"] {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    min-width: 10rem;
+    font-family: "Comic Sans MS";
+    font-variant: small-caps;
+}
+
+/* Day coloring */
+
+.Saturday,
+.Sunday {
+    background-color: rgb(209,159,232)
+}
+
+/* Messages */
+
+.messages {
+    padding: 0;
+    list-style: none;
+}
+
+.message {
+    width: 100%;
+    background: rgb(0, 255, 127);
+    padding: 1rem;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0;
+}
