@@ -1,6 +1,6 @@
 <h1 align="center">My Django Diary</h1>
 
-A Django/Python web application that functions as a digital diary. 
+Full-stack web application that functions as a digital diary using Django, Python, SQLite, HTML & CSS.
 
 ___
 Things I learned during this project:
