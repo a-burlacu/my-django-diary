@@ -1,4 +1,7 @@
-<h1 align="center">My Django Diary</h1>
+<p align="center">
+  <img width="600" src="django_diary_logo.png" alt="My Django Diary">
+</p>
+
 
 Full-stack web application that functions as a digital diary using Django, Python, SQLite, HTML & CSS.
 
